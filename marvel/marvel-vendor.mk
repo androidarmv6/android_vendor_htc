@@ -13,6 +13,6 @@
 # limitations under the License.
 
 # Pick up overlay for features that depend on non-open-source files
-DEVICE_PACKAGE_OVERLAYS := vendor/htc/icong/overlay
+DEVICE_PACKAGE_OVERLAYS := vendor/htc/marvel/overlay
 
-$(call inherit-product, vendor/htc/icong/icong-vendor-blobs.mk)
+$(call inherit-product, vendor/htc/marvel/marvel-vendor-blobs.mk)
