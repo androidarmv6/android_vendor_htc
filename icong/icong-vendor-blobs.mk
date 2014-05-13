@@ -16,13 +16,12 @@
 PRODUCT_COPY_FILES += \
     vendor/htc/icong/proprietary/libcamera.so:obj/lib/libcamera.so
 
-# Audio and WPDB
+# Audio
 PRODUCT_COPY_FILES += \
     vendor/htc/icong/proprietary/etc/AudioFilter.csv:/system/etc/AudioFilter.csv \
     vendor/htc/icong/proprietary/etc/AudioPara4.csv:/system/etc/AudioPara4.csv \
     vendor/htc/icong/proprietary/etc/AudioPara4_WB.csv:/system/etc/AudioPara4_WB.csv \
-    vendor/htc/icong/proprietary/etc/AudioPreProcess.csv:/system/etc/AudioPreProcess.csv \
-    vendor/htc/icong/proprietary/etc/WPDB.zip:/system/etc/WPDB.zip
+    vendor/htc/icong/proprietary/etc/AudioPreProcess.csv:/system/etc/AudioPreProcess.csv
 
 # G-Sensors and Compass
 PRODUCT_COPY_FILES += \

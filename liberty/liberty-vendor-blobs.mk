@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/liberty/proprietary/AudioPara4.csv:/system/etc/AudioPara4.csv \
     vendor/htc/liberty/proprietary/AudioPara4_WB.csv:/system/etc/AudioPara4_WB.csv \
     vendor/htc/liberty/proprietary/AudioPreProcess.csv:/system/etc/AudioPreProcess.csv \
-    vendor/htc/liberty/proprietary/WPDB.zip:/system/etc/WPDB.zip \
     vendor/htc/liberty/proprietary/libmm-adspsvc.so:/system/lib/libmm-adspsvc.so \
     vendor/htc/liberty/proprietary/libOmxH264Dec.so:/system/lib/libOmxH264Dec.so \
     vendor/htc/liberty/proprietary/libOmxMpeg4Dec.so:/system/lib/libOmxMpeg4Dec.so \

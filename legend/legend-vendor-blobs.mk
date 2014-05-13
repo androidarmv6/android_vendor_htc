@@ -39,7 +39,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/legend/proprietary/etc/AudioPara4.csv:system/etc/AudioPara4.csv \
     vendor/htc/legend/proprietary/etc/AudioPara4_WB.csv:system/etc/AudioPara4_WB.csv \
     vendor/htc/legend/proprietary/etc/AudioPreProcess.csv:system/etc/AudioPreProcess.csv \
-    vendor/htc/legend/proprietary/etc/WPDB.zip:system/etc/WPDB.zip \
     vendor/htc/legend/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/htc/legend/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/htc/legend/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \

@@ -33,13 +33,12 @@ PRODUCT_COPY_FILES += \
     vendor/htc/chacha/proprietary/lib/egl/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
     vendor/htc/chacha/proprietary/lib/egl/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
 
-# Audio and WPDB
+# Audio
 PRODUCT_COPY_FILES += \
     vendor/htc/chacha/proprietary/etc/AudioFilter.csv:/system/etc/AudioFilter.csv \
     vendor/htc/chacha/proprietary/etc/AudioPara4.csv:/system/etc/AudioPara4.csv \
     vendor/htc/chacha/proprietary/etc/AudioPara4_WB.csv:/system/etc/AudioPara4_WB.csv \
-    vendor/htc/chacha/proprietary/etc/AudioPreProcess.csv:/system/etc/AudioPreProcess.csv \
-    vendor/htc/chacha/proprietary/etc/WPDB.zip:/system/etc/WPDB.zip
+    vendor/htc/chacha/proprietary/etc/AudioPreProcess.csv:/system/etc/AudioPreProcess.csv
 
 # G-Sensors and Compass
 PRODUCT_COPY_FILES += \
