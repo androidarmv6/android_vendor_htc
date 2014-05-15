@@ -17,4 +17,5 @@ PRODUCT_COPY_FILES += \
     vendor/htc/msm7x27-common/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
     vendor/htc/msm7x27-common/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/htc/msm7x27-common/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
-    vendor/htc/msm7x27-common/proprietary/lib/libmmparser.so:system/lib/libmmparser.so
+    vendor/htc/msm7x27-common/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
+    vendor/htc/msm7x27-common/proprietary/lib/hw/camera.msm7x27.so:system/lib/hw/camera.msm7x27.so
