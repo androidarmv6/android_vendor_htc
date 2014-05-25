@@ -13,8 +13,8 @@
 # limitations under the License.
 
 # Prebuilt libraries that are needed to build open-source libraries
-PRODUCT_COPY_FILES += \
-    vendor/htc/marvel/proprietary/libcamera.so:obj/lib/libcamera.so
+#PRODUCT_COPY_FILES += \
+#    vendor/htc/marvel/proprietary/libcamera.so:obj/lib/libcamera.so
 
 # Audio and WPDB
 PRODUCT_COPY_FILES += \
