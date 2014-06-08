@@ -21,5 +21,10 @@ PRODUCT_COPY_FILES += \
 
 # Open source camera wrapper that can't be built with current GCC
 # https://github.com/SimplicityCM/android_device_htc_msm7x27-common/tree/cm-10.1/libcamera
+ifeq ($(TARGET_BOOTLOADER_BOARD_NAME),chacha)
+PRODUCT_COPY_FILES += \
+    vendor/htc/chacha/proprietary/lib/hw/camera.msm7x27.so:system/lib/hw/camera.msm7x27.so
+else
 PRODUCT_COPY_FILES += \
     vendor/htc/msm7x27-common/proprietary/lib/hw/camera.msm7x27.so:system/lib/hw/camera.msm7x27.so
+endif
