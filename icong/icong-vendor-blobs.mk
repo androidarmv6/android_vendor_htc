@@ -44,3 +44,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/icong/proprietary/libcamera.so:/system/lib/libcamera.so \
     vendor/htc/icong/proprietary/liboemcamera.so:/system/lib/liboemcamera.so
 
+    
+# Bluetooth
+PRODUCT_COPY_FILES += \
+    vendor/htc/icong/proprietary/libbluetooth.so:/system/lib/libbluetooth.so \
+    vendor/htc/icong/proprietary/libbluetoothd.so:/system/lib/libbluetoothd.so \
